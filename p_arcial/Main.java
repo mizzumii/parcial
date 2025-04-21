@@ -117,7 +117,7 @@ public class Main {
                }
 
                 case 8 -> {
-                    System.out.println("Saliendo del programa. Hasta luego!");
+                    System.out.println("Saliendo del programa. Hasta luego :) ");
                     System.out.println("Hecho por Ana Caro y Didier Lopez");
                     pausar(teclado);
                }
@@ -135,7 +135,7 @@ public class Main {
     }
 
     public static void pausar(Scanner scanner) {
-        System.out.println("\nPresione Enter para continuar...");
+        System.out.println("\nPresione Enter para continuar");
         scanner.nextLine();
         scanner.nextLine();
     }
